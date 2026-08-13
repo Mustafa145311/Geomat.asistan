@@ -629,3 +629,5 @@ const styles = StyleSheet.create({
     fontSize: 15,
   },
 });
+import { registerRootComponent } from 'expo';
+registerRootComponent(App);
